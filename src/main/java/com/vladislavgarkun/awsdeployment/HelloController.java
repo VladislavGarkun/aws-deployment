@@ -9,7 +9,7 @@ public class HelloController {
 
     @GetMapping(value = "/health", produces = MediaType.APPLICATION_JSON_VALUE)
     public String getHelloMessage(){
-        return "Hello from EC2";
+        return "Hello from Amazon Linux EC2";
     }
 
 }
