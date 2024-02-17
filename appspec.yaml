@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: /
+  - source: /target/aws-deployment.jar
     destination: /home/ec2-user/my-web-server
 permissions:
   - object: /home/ec2-user/my-web-server
