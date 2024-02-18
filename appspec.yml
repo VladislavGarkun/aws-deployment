@@ -1,18 +1,18 @@
 version: 0.0
 os: linux
 files:
-  - source: /
+  - source: /target
     destination: /tmp
 file_exists_behavior: OVERWRITE
 hooks:
   ApplicationStop:
-    - location: stop.sh
+    - location: scripts/stop.sh
       timeout: 20
       runas: root
   ApplicationStart:
-    - location: start.sh
+    - location: scripts/start.sh
       timeout: 60
       runas: root
   ValidateService:
-    - location: validate.sh
+    - location: scripts/validate.sh
       timeout: 30
