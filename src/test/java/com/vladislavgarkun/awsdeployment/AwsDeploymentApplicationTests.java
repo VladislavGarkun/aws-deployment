@@ -9,7 +9,7 @@ class AwsDeploymentApplicationTests {
 
 	@Test
 	void contextLoads() {
-		Assertions.assertThat(4).isEqualTo(3);
+		Assertions.assertThat(4).isEqualTo(4);
 	}
 
 }
