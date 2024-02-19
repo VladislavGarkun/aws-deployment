@@ -16,4 +16,6 @@ phases:
       - echo Build completed on `date`
 artifacts:
   files:
-    - target/aws-deployment.jar
+    - ./target/aws-deployment.jar
+    - ./scripts/*.sh
+    - appspec.yml
