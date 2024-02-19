@@ -18,4 +18,4 @@ artifacts:
   files:
     - ./target/aws-deployment.jar
     - ./scripts/*.sh
-    - appspec.yml
+    - appspec.yaml
