@@ -50,11 +50,6 @@
 			<artifactId>spring-cloud-starter-aws-parameter-store-config</artifactId>
 			<version>${ssm-parameter-store.version}</version>
 		</dependency>
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-aws-secrets-manager-config</artifactId>
-			<version>${ssm-parameter-store.version}</version>
-		</dependency>
 
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>

@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloController {
 
-    @Value("${logging.file.path}")
+    @Value("${operating.system}")
     private String os;
 
     @GetMapping(value = "/health", produces = MediaType.APPLICATION_JSON_VALUE)
