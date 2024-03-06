@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: /target
+  - source: /
     destination: /tmp
 file_exists_behavior: OVERWRITE
 hooks:
