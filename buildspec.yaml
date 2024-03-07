@@ -18,5 +18,5 @@ artifacts:
   files:
     - ./target/aws-deployment.jar
     - ./scripts/*.sh
-    - ./aws/amazon-cloudwatch-agent.json
+    - amazon-cloudwatch-agent.json
     - appspec.yml
