@@ -13,7 +13,7 @@ phases:
       - mvn install
   post_build:
     commands:
-      - echo Build completed on `date`
+      - echo Build successfully completed on `date`
 artifacts:
   files:
     - ./target/aws-deployment.jar
